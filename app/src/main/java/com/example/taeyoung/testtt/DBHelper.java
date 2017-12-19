@@ -10,6 +10,7 @@ import android.util.Log;
 
 public class DBHelper extends SQLiteOpenHelper {
     final static String TAG="SQLiteDBTest";
+    int a;
 
     public DBHelper(Context context) {
         super(context, UserContract.DB_NAME, null, UserContract.DATABASE_VERSION);
